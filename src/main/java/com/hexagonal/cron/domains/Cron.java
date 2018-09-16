@@ -16,7 +16,7 @@ public class Cron {
     }
 
     private Cron(String response){
-        this.response = response;
+        this.setResponse(response);
     }
 
     private void setResponse(String response){
